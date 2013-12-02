@@ -11,7 +11,7 @@
 </head>
 
 <body>
-        <form:form modelAttribute="user">
+        <form:form commandName="user">
                 <table>
                         <tr>
                                 <td style="color: red;"><form:errors path="*" element="div" /></td>

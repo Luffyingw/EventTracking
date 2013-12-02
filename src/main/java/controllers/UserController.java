@@ -129,7 +129,7 @@ public class UserController {
         if (user.getPassword().equals("")) {       //Password cannot be blank 
             result.reject("password", "Please enter your password in the password field");
         } 
-		
+        
 		if (result.hasErrors()) {               
 			return "UserLogin";
 		} 
@@ -137,16 +137,19 @@ public class UserController {
 		   {
 			return "UserLogin";
 		   }
+	////////////////////////////here must be some issues below. I tested many times in various approaches but failed///////////////////////////////////////////
 		  else{
 			   userService.saveUser(user);          //save userName and password
 			   model.addAttribute("user", user); //
-			   return "redirect:/home";
+			   return "redirect:/"; ///?????????
 		   }
 	}
 }
+
 	
 
-/*
+/*//////here should have a mapping (User Name,which is the emaill address should map to the userID in log.jsp)//////
 AuditLog log = new AuditLog();
 log.setUserId(userService.loadUser(userName));*/
+////////////////////////////////////////////////////////////////
 

@@ -23,6 +23,11 @@
         <tr style="background-color:#eeeeee;width:100px;font-family: Calibri, Tahoma, Arial, sans-serif;font-size: 14px"">
       <td><a href="<c:url value="/UserLogin"/>">login</a></td>
     </tr>
+    <tr style="background-color:#e0e0e0;font-family: Calibri, Tahoma, Arial, sans-serif;font-size: 14px">
+		<td><b>USER:</b></td>
+	
+	<c:out value="${users.username}" />
+</table>
 
 	<br>
 </div>

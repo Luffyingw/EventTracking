@@ -9,7 +9,7 @@ import javax.persistence.Table;
 @Table  (name = "users")	
 public class User extends BaseEntity{
 		
-	    @Column(name = "userName")
+	    @Column(name = "username")
 		private String Email_address;
 	    
 	    @Column(name = "password")

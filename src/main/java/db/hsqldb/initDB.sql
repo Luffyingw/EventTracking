@@ -7,7 +7,7 @@ CREATE TABLE events (
   eventdate DATE,
   description VARCHAR(30),
   sns  VARCHAR(30)
-)
+);
 
 
 DROP TABLE auditlog IF EXISTS;
@@ -18,8 +18,8 @@ CREATE TABLE auditlog (
 	userid VARCHAR(30),
 	successind VARCHAR(10),
 	auditdate DATE,
-	auditmessage VARCHAR(50),
-)
+	auditmessage VARCHAR(50)
+);
 
 
 
@@ -27,6 +27,6 @@ DROP TABLE users IF EXISTS;
 
 CREATE TABLE users (
   id INTEGER IDENTITY PRIMARY KEY,
-  userName VARCHAR(30),
-  password VARCHAR(30),
-)
+  username VARCHAR(30),
+  password VARCHAR(30)
+);

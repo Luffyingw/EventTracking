@@ -11,7 +11,7 @@
 		<td><b>Date</b></td>
 		<td><b>Audit Message</b></td>
 	</tr>
-	<c:forEach var="log" items="${logs}" >
+	<c:forEach var="log" items="${logs}">
     <tr style="background-color:#eeeeee;width:100px;font-family: Calibri, Tahoma, Arial, sans-serif;font-size: 14px">
       <td>${log.objectId}</td>
       <td>${log.userId}</td>

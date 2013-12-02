@@ -56,6 +56,7 @@
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/hsqldb-2.2.8.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/spring-aop-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/org.springframework.web.servlet-sources-3.0.5.RELEASE.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
